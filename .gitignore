@@ -1,8 +1,6 @@
-vendor/*
-node_modules/*
-application/config/constants.php
-application/config/database.php
-application/config/config.php
+/vendor/*
+/node_modules/*
 /application/config/constants.php
 /application/config/database.php
 /application/config/config.php
+/uploads/*
