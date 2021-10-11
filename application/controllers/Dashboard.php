@@ -8,11 +8,6 @@ class Dashboard extends CI_Controller {
     }
 	public function index()
 	{
-		$this->load->view('template/head');
-		$this->load->view('template/nav');
-		$this->load->view('template/header');
-		$this->load->view('dashboard/index');
-		$this->load->view('template/footer');
-		$this->load->view('template/scripts');
+		show_view('dashboard/index');
 	}
 }
