@@ -11,21 +11,18 @@
         <meta name="description" content="">
         <meta name="keywords" content="" />
         <link rel="canonical" href="<?= base_url(); ?>">
-
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:title" content="">
         <meta property="og:description" content="">
         <meta property="og:image" content="">
-
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="">
         <meta property="twitter:title" content="">
         <meta property="twitter:description" content="">
         <meta property="twitter:image" content="">
-
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
@@ -34,14 +31,11 @@
         <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="theme-color" content="#ffffff">
-
         <!-- Sweet Alert -->
         <link type="text/css" href="node_modules/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
-
         <!-- Notyf -->
         <link type="text/css" href="node_modules/notyf/notyf.min.css" rel="stylesheet">
-
         <!-- Volt CSS -->
         <link type="text/css" href="assets/css/volt.css" rel="stylesheet">
     </head>
-<body>
+    <body>
