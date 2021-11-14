@@ -83,3 +83,24 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/*
+|--------------------------------------------------------------------------
+| Exit Status Codes
+|--------------------------------------------------------------------------
+|
+| Custom CONSTANST
+|
+*/
+defined('APP_URL') OR define('APP_URL', 'http://codeigniter3-base.test');
+defined('APP_NAME') OR define('APP_NAME', 'CI3 Base');
+defined('CURRENT_YEAR') OR define('CURRENT_YEAR', date('Y'));
+defined('TBL_PREFIX') OR define('TBL_PREFIX', 'ci3base_');
+
+//Servicios de mandrill - mailchimp
+defined('MANDRILL_API_KEY') OR define('MANDRILL_API_KEY', '');
+defined('MANDRILL_NOREPLY_EMAIL') OR define('MANDRILL_NOREPLY_EMAIL', '');
+
+//SMS
+defined('LABSMOBILE_API_KEY') OR define('LABSMOBILE_API_KEY', '');
+
