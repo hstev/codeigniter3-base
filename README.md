@@ -1,3 +1,1 @@
-# Codeigniter 3 Project Base for Dashboard
-
-# By Harol Restrepo - hstev 2021
+Codeigniter 3.1.13 base with volt theme integration 
